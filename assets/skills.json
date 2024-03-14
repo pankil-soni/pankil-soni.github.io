@@ -1,0 +1,54 @@
+[
+    {
+        "name": "C++",
+        "image": "./assets/images/cpp.png"
+    },
+    {
+        "name": "Java",
+        "image": "./assets/images/java.png"
+    },
+    {
+        "name": "Python",
+        "image": "./assets/images/python.svg"
+    },
+    {
+        "name": "Machine Learning",
+        "image": "./assets/images/ml.png"
+    },
+    {
+        "name": "Oracle SQL",
+        "image": "./assets/images/sql.png"
+    },
+    {
+        "name": "HTML5",
+        "image": "./assets/images/html5.png"
+    },
+    {
+        "name": "CSS3",
+        "image": "./assets/images/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "image": "./assets/images/javascript.png"
+    },
+    {
+        "name": "Mongo DB",
+        "image": "./assets/images/mongodb.svg"
+    },
+    {
+        "name": "React",
+        "image": "./assets/images/react.png"
+    },
+    {
+        "name": "Node.js",
+        "image": "./assets/images/node.png"
+    },
+    {
+        "name": "Flask",
+        "image": "./assets/images/flask.png"
+    },
+    {
+        "name": "Bootstrap",
+        "image": "./assets/images/bootstrap.png"
+    }
+]
