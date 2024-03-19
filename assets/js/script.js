@@ -94,14 +94,14 @@ if (localStorage.getItem("theme") === "light_theme") {
 
 var typed = new Typed("#typed-text", {
   strings: [
-    "Machine/Deep Learning🤖",
-    "Full Stack Web Development🌐",
-    "Data Science📊",
-    "Python🐍",
-    "C 🅲 / C++💻",
-    "Java☕",
-    "SQL 🗃️",
-    "video/photo Editing🎬🖼️",
+    "Machine/Deep Learning",
+    "Full Stack Web Development",
+    "Data Science",
+    "Python",
+    "C / C++",
+    "Java",
+    "SQL ",
+    "video/photo Editing",
   ],
   typeSpeed: 15,
   backSpeed: 30,
