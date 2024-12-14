@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Numpy",
+    "image": "./assets/images/libraries/numpy.png"
+  },
+  {
+    "name": "Pandas",
+    "image": "./assets/images/libraries/pandas.png"
+  },
+  {
+    "name": "Matplotlib",
+    "image": "./assets/images/libraries/matplotlib.png"
+  },
+  {
+    "name": "Scikit-learn",
+    "image": "./assets/images/libraries/sklearn.svg"
+  },
+  {
+    "name": "Keras",
+    "image": "./assets/images/libraries/keras.png"
+  },
+  {
+    "name": "Tensorflow",
+    "image": "./assets/images/libraries/tf.png"
+  },
+  {
+    "name": "Flask",
+    "image": "./assets/images/libraries/flask.png"
+  },
+  {
+    "name": "Streamlit",
+    "image": "./assets/images/libraries/streamlit.svg"
+  }
+]

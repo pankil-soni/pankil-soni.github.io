@@ -1,50 +1,50 @@
 [
-    {
-        "name": "Git",
-        "image": "./assets/images/git.png"
-    },
-    {
-        "name": "GitHub",
-        "image": "./assets/images/github.png"
-    },
-    {
-        "name": "Command Line",
-        "image": "./assets/images/command.png"
-    },
-    {
-        "name": "Keras",
-        "image": "./assets/images/keras.png"
-    },
-    {
-        "name": "Streamlit",
-        "image": "./assets/images/streamlit.png"
-    },
-    {
-        "name": "Chakra UI",
-        "image": "./assets/images/chakra.png"
-    },
-    {
-        "name": "Docker",
-        "image": "./assets/images/docker.png"
-    },
-    {
-        "name": "VS Code",
-        "image": "./assets/images/vs-code.png"
-    },
-    {
-        "name": "Canva",
-        "image": "./assets/images/canva.png"
-    },
-    {
-        "name": "Excel",
-        "image": "./assets/images/excel.png"
-    },
-    {
-        "name": "Photoshop",
-        "image": "./assets/images/photoshop.png"
-    },
-    {
-        "name": "Adobe Premiere Pro",
-        "image": "./assets/images/prpro.png"
-    }
+  {
+    "name": "Git",
+    "image": "./assets/images/tools/git.png"
+  },
+  {
+    "name": "GitHub",
+    "image": "./assets/images/tools/github.png"
+  },
+  {
+    "name": "Command Line",
+    "image": "./assets/images/tools/command.png"
+  },
+  {
+    "name": "NPM",
+    "image": "./assets/images/tools/npm.png"
+  },
+  {
+    "name": "Vercel",
+    "image": "./assets/images/tools/vercel.svg"
+  },
+  {
+    "name": "Render",
+    "image": "./assets/images/tools/render.png"
+  },
+  {
+    "name": "Netlify",
+    "image": "./assets/images/tools/netlify.webp"
+  },
+  {
+    "name": "VS Code",
+    "image": "./assets/images/tools/vs-code.png"
+  },
+  {
+    "name": "Canva",
+    "image": "./assets/images/tools/canva.png"
+  },
+  {
+    "name": "Excel",
+    "image": "./assets/images/tools/excel.png"
+  },
+  {
+    "name": "Photoshop",
+    "image": "./assets/images/tools/photoshop.png"
+  },
+  {
+    "name": "Adobe Premiere Pro",
+    "image": "./assets/images/tools/prpro.png"
+  }
 ]

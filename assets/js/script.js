@@ -46,16 +46,27 @@ const toggleBtnBox = document.querySelector("[data-toggle-box]");
 const toggleBtns = document.querySelectorAll("[data-toggle-btn]");
 const skillsBox = document.querySelector("[data-skills-box]");
 
+// Show skills list by default
+skillsBox.classList.add("active-1");
+
 for (let i = 0; i < toggleBtns.length; i++) {
   toggleBtns[i].addEventListener("click", function () {
-    elemToggleFunc(toggleBtnBox);
-    for (let i = 0; i < toggleBtns.length; i++) {
-      elemToggleFunc(toggleBtns[i]);
-    }
-    elemToggleFunc(skillsBox);
+    // Remove all active classes first
+    skillsBox.classList.remove("active-1", "active-2", "active-3");
+    toggleBtnBox.classList.remove("active-1", "active-2", "active-3");
+
+    // Remove active class from all buttons
+    toggleBtns.forEach((btn) => btn.classList.remove("active"));
+
+    // Add active class to clicked button
+    this.classList.add("active");
+
+    // Add appropriate active class based on button index
+    const activeClass = `active-${i + 1}`;
+    toggleBtnBox.classList.add(activeClass);
+    skillsBox.classList.add(activeClass);
   });
 }
-
 /**
  * dark & light theme toggle
  */
@@ -94,9 +105,12 @@ if (localStorage.getItem("theme") === "light_theme") {
 
 var typed = new Typed("#typed-text", {
   strings: [
+    "Artificial Intelligence",
     "Machine/Deep Learning",
-    "Full Stack Web Development",
     "Data Science",
+    "Full Stack Web Development",
+    "Desktop App Development",
+    "Mobile App Development",
     "Python",
     "C / C++",
     "Java",
@@ -110,6 +124,4 @@ var typed = new Typed("#typed-text", {
 
 var typed = new Typed("#typed-text-hello", {
   strings: ["Hey, it's me!"],
-  typeSpeed: 10,
-  backSpeed: 50,
 });

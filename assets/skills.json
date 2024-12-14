@@ -1,54 +1,75 @@
 [
-    {
-        "name": "C++",
-        "image": "./assets/images/cpp.png"
-    },
-    {
-        "name": "Java",
-        "image": "./assets/images/java.png"
-    },
-    {
-        "name": "Python",
-        "image": "./assets/images/python.svg"
-    },
-    {
-        "name": "Machine Learning",
-        "image": "./assets/images/ml.png"
-    },
-    {
-        "name": "Oracle SQL",
-        "image": "./assets/images/sql.png"
-    },
-    {
-        "name": "HTML5",
-        "image": "./assets/images/html5.png"
-    },
-    {
-        "name": "CSS3",
-        "image": "./assets/images/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "image": "./assets/images/javascript.png"
-    },
-    {
-        "name": "Mongo DB",
-        "image": "./assets/images/mongodb.svg"
-    },
-    {
-        "name": "React",
-        "image": "./assets/images/react.png"
-    },
-    {
-        "name": "Node.js",
-        "image": "./assets/images/node.png"
-    },
-    {
-        "name": "Flask",
-        "image": "./assets/images/flask.png"
-    },
-    {
-        "name": "Bootstrap",
-        "image": "./assets/images/bootstrap.png"
-    }
+  {
+    "name": "C",
+    "image": "./assets/images/skills/c.png"
+  },
+  {
+    "name": "C++",
+    "image": "./assets/images/skills/cpp.png"
+  },
+  {
+    "name": "Java",
+    "image": "./assets/images/skills/java.png"
+  },
+  {
+    "name": "Python",
+    "image": "./assets/images/skills/python.svg"
+  },
+  {
+    "name": "JavaScript",
+    "image": "./assets/images/skills/javascript.png"
+  },
+  {
+    "name": "TypeScript",
+    "image": "./assets/images/skills/typescript.svg"
+  },
+
+  {
+    "name": "Artificial Intelligence",
+    "image": "./assets/images/skills/AI.png"
+  },
+  {
+    "name": "Machine Learning",
+    "image": "./assets/images/skills/ml.png"
+  },
+  {
+    "name": "SQL",
+    "image": "./assets/images/skills/sql.svg"
+  },
+  {
+    "name": "Mongo DB",
+    "image": "./assets/images/skills/mongodb.svg"
+  },
+  {
+    "name": "React",
+    "image": "./assets/images/skills/react.png"
+  },
+  {
+    "name": "Next.js",
+    "image": "./assets/images/skills/nextjs.png"
+  },
+  {
+    "name": "Node.js",
+    "image": "./assets/images/skills/node.png"
+  },
+  {
+    "name": "Django",
+    "image": "./assets/images/skills/django.svg"
+  },
+  {
+    "name": "AWS",
+    "image": "./assets/images/skills/aws.png"
+  },
+  {
+    "name": "Docker",
+    "image": "./assets/images/skills/docker.png"
+  },
+  {
+    "name": "Expo",
+    "image": "./assets/images/skills/expo.png"
+  },
+  {
+    "name": "Power BI",
+    "image": "./assets/images/skills/powerbi.png"
+  }
 ]

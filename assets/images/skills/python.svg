@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg01"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Python logo 01.svg">
+  <defs
+     id="defs01" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.208"
+     inkscape:cx="250"
+     inkscape:cy="250"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     objecttolerance="18"
+     guidetolerance="27"
+     inkscape:window-width="1304"
+     inkscape:window-height="745"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-text-baseline="true"
+     units="px">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3721"
+       units="px"
+       spacingx="5"
+       spacingy="5"
+       empspacing="5" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata01">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       d="M 250,155 H 100 c 0,0 -45,0 -45,95 0,95 45,95 45,95 h 45 v -45 c 0,-30 25,-55 55,-55 h 100 c 25,0 45,-20 45,-45 V 100 c 0,0 0,-45 -95,-45 -95,0 -95,45 -95,45 v 45 h 95 z"
+       id="path101"
+       inkscape:connector-curvature="0"
+       style="fill:#3377bb;fill-opacity:1"
+       sodipodi:nodetypes="cczccssssczcccc" />
+    <path
+       d="m 250,345 h 150 c 0,0 45,0 45,-95 0,-95 -45,-95 -45,-95 h -45 v 45 c 0,30 -25,55 -55,55 H 200 c -25,0 -45,20 -45,45 v 100 c 0,0 0,45 95,45 95,0 95,-45 95,-45 v -45 h -95 z"
+       id="path102"
+       inkscape:connector-curvature="0"
+       style="fill:#ffbb33;fill-opacity:1"
+       sodipodi:nodetypes="cczccssssczcccc" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1"
+       id="path103"
+       cx="200"
+       cy="100"
+       r="15" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1"
+       id="path104"
+       cx="300"
+       cy="400"
+       r="15" />
+  </g>
+</svg>
