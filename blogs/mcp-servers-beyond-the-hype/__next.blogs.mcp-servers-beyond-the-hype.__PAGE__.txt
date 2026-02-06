@@ -1,0 +1,291 @@
+1:"$Sreact.fragment"
+2:I[34375,["https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/9d4357b7300ff3a0.js","https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/8c06a431c10035d8.js","https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/1fbe02a193612ba9.js","https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/b1392968ec7d1446.js","https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/e324ebd7f158e978.js","https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/3ecb02e4a4bbe92b.js"],"default"]
+b:I[97367,["https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/ff1a16fafef87110.js","https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+:HL["https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/9c05de852e057195.css","style"]
+3:T16b1,You've probably seen buzz about **MCP servers**, with some calling them the “USB-C of AI” or _game changers_ for autonomous agents. But here's the sober truth: we've been doing much of this long before MCP arrived — it just wasn't standardized. Let's peel back the layers.
+
+![Model Context Protocols](https://gs8r2a1o6v.ufs.sh/f/mIz0GfQ1TSOpqZeM4zaMyAvRjGmzIU7kP02W5fhXlonVHC8B)
+
+## So, what  _really_  is an MCP server?
+
+**MCP**  stands for  **Model Context Protocol**  — an open-source standard released by Anthropic in late 2024 to let AI models connect to tools, data sources, files, databases, web APIs, and more.
+
+Picture it as a translator: instead of prompts or vector embeddings, you now get JSON-structured dialogues saying, “I want to run this function on GitHub” or “read these files.”
+
+That's what an  **MCP server**  handles:
+
+-   Tool discovery
+-   Structured requests
+-   Execution and response
+-   Error handling  
+    All wrapped in one easy protocol.
+
+## Wait — didn't agents already do that?
+
+Absolutely.  **Before MCP**, you could:
+
+-   Build a Claude or ChatGPT plugin using function-calling
+-   Write glue code (scripts that poll data and format responses)
+-   Use tools like Puppeteer or LangChain to simulate agent behavior
+
+So yes —  **the core idea isn't new**. MCP is just an agreed-upon layer of  **generalization**.
+
+Every integration earlier was custom. With MCP, you write a server once and plug it into any compliant AI. That's the difference.
+
+## So what can MCP do that we couldn't do before?
+
+There's no magic — it's about  **scalability and simplicity**.
+
+### Before MCP
+
+-   You had to write  **custom code per integration**
+-   AI relied on  **manual instructions**  from developers
+-   Embedded files were often  **static or stale**
+-   **Manual workflows**  were stitched together across tools
+-   Security was  **ad-hoc**, handled case by case
+
+### After MCP
+
+-   A  **single MCP server**  can serve many different models
+-   Tools can be discovered automatically via a  **JSON spec**
+-   Models can  **fetch real-time live data**, not just preloaded content
+-   You can chain tools together easily (e.g.,  **GitHub → Slack → Notion**)
+-   **Consent, authentication, and audit**  are built into the protocol
+
+It saves  **engineering time**,  **reduces error**, and helps  **standardize access**  across agents.
+
+## What could we do before MCP? Real examples:
+
+Here's what developers  _already_  did without MCP:
+
+-   **Code Automation**: Claude + GitHub API → Create PRs and merge automatically
+-   **Docs Processing**: Poll Google Drive + convert docs to Markdown + summarize
+-   **Data Fetching**: Web scraping latest stock prices → JSON → Summarize via GPT
+-   **Slack Workflows**: Webhook triggers + message posting via Node.js
+
+We were doing all this! It just wasn't reusable or standardized.
+
+## Friendly Metaphor: USB-C for AI Tools
+
+MCP is like  **USB-C**.
+
+> Just plug in a server, let the AI discover what tools are available, and start using them.
+
+There's no need for hardcoded APIs or bespoke wrappers anymore.
+Even Microsoft is now adding native MCP support into its  **Windows AI Foundry**, letting you ask AI to “fetch this Excel file” or “show all images from yesterday” securely and naturally.
+
+## Caveats & Reality Check
+
+**Security**  matters.
+
+-   Malicious servers could inject code or access sensitive data
+-   Token misuse or prompt injection can still happen
+-   Anthropic and other providers are working on mitigations like:
+-   **MCP Guardian**  (sandboxing and throttling)
+-   **MCPSafetyScanner**  (audits and scanning)
+-   **RBAC policies and consent prompts**
+
+You still need to  **design for safety**  — but now you don't need to reinvent that wheel either.
+
+## What's Changed After MCP?
+
+### Setup
+
+-   **Before MCP**: Manual wiring of each tool and model
+-   **After MCP**: Unified setup using a shared protocol
+
+### Tool Usage
+
+-   **Before MCP**: Custom integrations for each individual model
+-   **After MCP**:  **Model-agnostic**  design, tools can be reused across models
+
+### Security
+
+-   **Before MCP**: DIY security with custom scripts
+-   **After MCP**:  **Built-in**  features like consent flows,  **role-based access control (RBAC)**, and detailed audit logs
+
+### Tool Chaining
+
+-   **Before MCP**: Complex and brittle orchestration
+-   **After MCP**: Natively supported tool chaining, easier automation
+
+### Discovery
+
+-   **Before MCP**: Static list of tools, often hardcoded
+-   **After MCP**:  **Dynamic discovery**, guided by the AI itself
+
+## Bottom Line
+
+MCP didn't invent AI agents or tool use — it  **standardizes**  what many devs already built manually.
+
+It's like finally agreeing on  **how all tools should connect**, instead of writing ad-hoc glue code for each one.
+
+It doesn't make your AI smarter — but it makes your integrations  **workable at scale**, discoverable, secure, and future-proof.
+
+So beyond the hype:  **MCP servers just wrapped years of custom engineering into a clean, open protocol**. And honestly? That's a big deal.
+
+## 👉 Resources & Further Reading
+
+-   [Model Context Protocol (Official)](https://modelcontextprotocol.io/introduction)
+-   [Anthropic's GitHub examples](https://github.com/anthropics/mcp-examples)
+-   [Understanding MCP Servers — Chatmaxima](https://chatmaxima.com/blog/understanding-mcp-servers-a-game-changer-for-ai-integration-and-beyond/)
+-   [MCP Security Risks Research (arXiv)](https://arxiv.org/abs/2505.11154)
+-   [Windows AI Foundry + MCP Integration](https://www.theverge.com/news/669298/microsoft-windows-ai-foundry-mcp-support)
+
+> “The biggest innovations often feel boring to engineers — because they make the hard parts disappear.”_  
+> — Probably someone who's tired of maintaining glue code_4:Tad1,Today marks the beginning of my DevOps learning journey, and I kicked it off by diving into Docker. Here's what I learned and accomplished on my first day.
+
+![](https://gs8r2a1o6v.ufs.sh/f/mIz0GfQ1TSOp15ugfLMrJFa2xozlgPE3sXhyABkpT4nVI7Uu)
+
+**no more it works on my machine** 🚀
+
+### Understanding the Basics
+
+First, I grasped the fundamental concepts:
+
+- **Containers**: Lightweight, standalone packages that include everything needed to run a piece of software, ensuring consistency across different environments.
+
+- **Docker**: A platform that enables creating, deploying, and running applications using container technology.
+
+- **Docker Hub**: The official repository for Docker images, like GitHub but for container images.
+
+## Essential Docker Commands
+
+I learned several basic Docker commands that are crucial for container management:
+
+### List all running containers
+
+```bash
+docker ps
+```
+
+### List all Docker images on your system
+
+```bash
+docker image ls
+```
+
+### Pull an image from Docker Hub
+
+```bash
+docker pull [image-name]
+```
+
+### Remove containers or images
+
+```bash
+docker rm [container-id/name]
+```
+
+### Run a container
+
+```bash
+docker run [options] [image-name]
+```
+
+## Hands-on Practice: Running Nginx
+
+My first practical exercise was setting up an Nginx web server using Docker. Here's how I did it:
+
+```bash
+docker pull nginx
+docker run --name my-nginx -p 8080:80 -d nginx
+```
+
+Let's break down this command:
+
+- _**--name my-nginx**_: Assigns a custom name to the container
+
+- _**-p 8080:80**_: Maps port 8080 on my host to port 80 in the container
+
+- _**-d**_: Runs the container in detached mode (background)
+
+- _**nginx**_: The image to use
+
+## Connecting to Docker Playground
+
+One interesting challenge I tackled was accessing Docker Playground from Windows using Git Bash via SSH. This gave me experience with:
+
+- Remote container management
+
+- Using SSH for remote connections
+
+<https://stackoverflow.com/a/79113715/24263125> refer to my this comment to ssh docker playground instance.
+
+## Key Takeaways from Day 1
+
+1. Docker simplifies application deployment through containerization
+
+2. Basic Docker commands are intuitive and follow a logical pattern
+
+3. Port mapping is crucial for accessing containerized applications
+
+4. Docker Playground provides a great environment for learning
+
+## What's Next?
+
+Tomorrow, I plan to explore:
+
+- Create own docker image using as Dockerfile.
+
+- Deploying own simple express app.
+
+- Multi-container applications.
+
+- Docker networking basics.
+
+the resource I used for learning docker is : <https://youtu.be/rr9cI4u1_88?si=s8ehmucFYWfjcci5>
+
+Stay tuned for more updates on my DevOps journey! Feel free to share your thoughts and suggestions in the comments below.
+
+#Docker #DevOps #Learning #TechBlog5:T1317,As a Second-year B.Tech student majoring in Artificial Intelligence and Machine Learning, I was thrilled to land my first summer internship at Persist Ventures, a cutting-edge company developing AI-powered productivity tools, solutions and projects in many different domains. Little did I know that these three months would be a whirlwind of learning, challenges, and growth that would shape my understanding of AI applications in the real world.
+
+# The Journey Begins
+
+On April 9, 2024 I started working at Workplete (https://workplete.com/) Project of Persist Ventures and a mix of excitement and nervousness coursing through me. The team's warm welcome immediately put me at ease, and I was quickly introduced to the one of the two main projects I'd be working on: an Automatic Form Filler.
+
+## Project 1: Automatic Form Filler (AFF)
+
+![automatic form filler](https://gs8r2a1o6v.ufs.sh/f/mIz0GfQ1TSOp3BbFXH7p9cHFJMoKLVOdtle70W6DbmjG4BfQ)
+
+My first task was to develop a Chrome extension that could automatically fill out online forms across multiple websites. Sounds simple, right? Well, not quite.
+
+The challenge was to make it intelligent enough to understand different form structures so that it can work around any sort of website with forms and accurately map user-provided information to the correct fields.
+The learning curve was steep. I had to quickly get up to speed with Chrome extension development, dive deep into the world of GPT-4 for intelligent field mapping, and learn how to optimize API calls to keep costs down. One of the biggest hurdles was handling the context length for GPT-4. The solution? Implementing FAISS Vector DB to reduce token length. It was my first time working with vector databases, and it opened up a whole new world of possibilities.
+
+Seeing the extension's accuracy improve from 40% to 76% for the given sheet of different form links over the development period was incredibly rewarding. Even more gratifying was the positive feedback from beta testers, who reported saving a lot of time filling repetitive forms. It was my first taste of creating something that directly impacted users' lives.
+
+## Project 2: Multi-Action Agent (MAA)
+
+![Multi-Action Agent (MAA)](https://gs8r2a1o6v.ufs.sh/f/mIz0GfQ1TSOpZeKacxbsS74AXGUqul8gRNcVemdrQx19zbfJ)
+
+Just as I was getting comfortable with the AFF, I was thrown into the deep end with the Multi-Action Agent project.
+
+This was next-level stuff — an AI-powered browser assistant that could perform complex, multi-step tasks based on natural language commands.
+The MAA pushed my skills to the limit. I had to grapple with natural language understanding, autonomous web navigation, and visual understanding of web pages using GPT-4's vision capabilities. The Chrome Debugger API became my new best friend (and occasional nemesis) as I worked on giving the agent more control over the browser.
+
+One of the most exciting moments was when we successfully tested the MAA on tasks like **booking a cab on Uber or sending a WhatsApp message —all initiated with a simple text command.** It felt like we were building the future of web interaction.
+
+# Beyond Technical Skills
+
+While the technical skills I gained were invaluable, the soft skills I developed were equally important. I learned how to communicate complex technical concepts with the team. Team meetings and code reviews improved my ability to give and receive constructive feedback.
+One of the most memorable experiences was presenting our projects to potential investors. It was nerve-wracking but exhilarating, and it gave me a glimpse into the business side of tech.
+
+# Reflecting on the Journey
+
+As I wrapped up my internship on July 1, 2024, I couldn't believe how much I had learned in just three months. From Chrome extension development to AI integration, from database management to UX design considerations, the experience was comprehensive and eye-opening.
+
+But beyond the technical skills, this internship taught me about the real-world application of AI. It showed me how theoretical concepts I'd learned in university translated into products that could genuinely improve people's lives. It ignited a passion for creating AI-powered tools that are not just technically impressive, but also user-friendly and practical.
+
+To all students considering internships: take the leap. The learning, the challenges, the victories — they're all part of an incredible journey that will shape your future in tech.
+
+As I head back to complete my degree, I carry with me not just new skills and knowledge, but a renewed excitement for the future of AI and my role in shaping it. The journey has just begun, and I can't wait to see where it leads next.
+
+This internship was more than just a summer job. It was a glimpse into the future — both the industry's and my own. And if this is just the beginning, I can't wait to see what comes next.0:{"buildId":"WGLGA5pZKjn3gmDT9k3hC","rsc":["$","$1","c",{"children":[["$","$L2",null,{"blog":{"title":"MCP Servers: Beyond the Hype 🚀","publishDate":"Jun 29, 2025","imageUrl":"/blogs/mcp-servers-beyond-the-hype.png","link":"/blogs/mcp-servers-beyond-the-hype","externalLink":"https://medium.com/@pmsoni2016/what-are-mcp-servers-beyond-the-hype-9863ba4c240d","markdownContent":"$3"},"moreBlogs":[{"title":"Getting Started with Docker 🐳","publishDate":"Oct 22, 2024","imageUrl":"/blogs/getting-started-with-docker.png","link":"/blogs/getting-started-with-docker","externalLink":"https://day-1-of-my-devops-journey-docker.hashnode.dev/day-1-of-my-devops-journey-getting-started-with-docker","markdownContent":"$4"},{"title":"My First tech Internship (Remote)","publishDate":"Jul 7, 2024","imageUrl":"/blogs/my-first-internship.png","link":"/blogs/my-first-internship","externalLink":"https://medium.com/@pmsoni2016/my-first-tech-internship-remote-building-ai-powered-automations-8e3790201bfe","markdownContent":"$5"}]}],["$L6","$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
+6:["$","link","0",{"rel":"stylesheet","href":"https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/9c05de852e057195.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/b1392968ec7d1446.js","async":true}]
+8:["$","script","script-1",{"src":"https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/e324ebd7f158e978.js","async":true}]
+9:["$","script","script-2",{"src":"https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/3ecb02e4a4bbe92b.js","async":true}]
+a:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
+d:null
