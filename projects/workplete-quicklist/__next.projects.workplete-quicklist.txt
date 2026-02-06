@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
-3:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
-0:{"buildId":"JMVAg2MGnK0ciHldmY93s","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[39756,["https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/ff1a16fafef87110.js","https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+3:I[37457,["https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/ff1a16fafef87110.js","https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+0:{"buildId":"ErWgKTM3zWJEsgSn8Igga","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
