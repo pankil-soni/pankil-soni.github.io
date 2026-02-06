@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
-2:I[34375,["https://pankil-soni.github.io/_next/static/chunks/9d4357b7300ff3a0.js","https://pankil-soni.github.io/_next/static/chunks/8c06a431c10035d8.js","https://pankil-soni.github.io/_next/static/chunks/1fbe02a193612ba9.js","https://pankil-soni.github.io/_next/static/chunks/b1392968ec7d1446.js","https://pankil-soni.github.io/_next/static/chunks/e324ebd7f158e978.js","https://pankil-soni.github.io/_next/static/chunks/3ecb02e4a4bbe92b.js"],"default"]
-b:I[97367,["https://pankil-soni.github.io/_next/static/chunks/ff1a16fafef87110.js","https://pankil-soni.github.io/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+2:I[34375,["/_next/static/chunks/9d4357b7300ff3a0.js","/_next/static/chunks/8c06a431c10035d8.js","/_next/static/chunks/1fbe02a193612ba9.js","/_next/static/chunks/b1392968ec7d1446.js","/_next/static/chunks/e324ebd7f158e978.js","/_next/static/chunks/3ecb02e4a4bbe92b.js"],"default"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
 c:"$Sreact.suspense"
-:HL["https://pankil-soni.github.io/_next/static/chunks/9c05de852e057195.css","style"]
+:HL["/_next/static/chunks/9c05de852e057195.css","style"]
 3:Tad1,Today marks the beginning of my DevOps learning journey, and I kicked it off by diving into Docker. Here's what I learned and accomplished on my first day.
 
 ![](https://gs8r2a1o6v.ufs.sh/f/mIz0GfQ1TSOp15ugfLMrJFa2xozlgPE3sXhyABkpT4nVI7Uu)
@@ -282,10 +282,10 @@ To all students considering internships: take the leap. The learning, the challe
 
 As I head back to complete my degree, I carry with me not just new skills and knowledge, but a renewed excitement for the future of AI and my role in shaping it. The journey has just begun, and I can't wait to see where it leads next.
 
-This internship was more than just a summer job. It was a glimpse into the future — both the industry's and my own. And if this is just the beginning, I can't wait to see what comes next.0:{"buildId":"bzNSUQB2_p5ciO8IjVDK2","rsc":["$","$1","c",{"children":[["$","$L2",null,{"blog":{"title":"Getting Started with Docker 🐳","publishDate":"Oct 22, 2024","imageUrl":"/blogs/getting-started-with-docker.png","link":"/blogs/getting-started-with-docker","externalLink":"https://day-1-of-my-devops-journey-docker.hashnode.dev/day-1-of-my-devops-journey-getting-started-with-docker","markdownContent":"$3"},"moreBlogs":[{"title":"MCP Servers: Beyond the Hype 🚀","publishDate":"Jun 29, 2025","imageUrl":"/blogs/mcp-servers-beyond-the-hype.png","link":"/blogs/mcp-servers-beyond-the-hype","externalLink":"https://medium.com/@pmsoni2016/what-are-mcp-servers-beyond-the-hype-9863ba4c240d","markdownContent":"$4"},{"title":"My First tech Internship (Remote)","publishDate":"Jul 7, 2024","imageUrl":"/blogs/my-first-internship.png","link":"/blogs/my-first-internship","externalLink":"https://medium.com/@pmsoni2016/my-first-tech-internship-remote-building-ai-powered-automations-8e3790201bfe","markdownContent":"$5"}]}],["$L6","$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
-6:["$","link","0",{"rel":"stylesheet","href":"https://pankil-soni.github.io/_next/static/chunks/9c05de852e057195.css","precedence":"next"}]
-7:["$","script","script-0",{"src":"https://pankil-soni.github.io/_next/static/chunks/b1392968ec7d1446.js","async":true}]
-8:["$","script","script-1",{"src":"https://pankil-soni.github.io/_next/static/chunks/e324ebd7f158e978.js","async":true}]
-9:["$","script","script-2",{"src":"https://pankil-soni.github.io/_next/static/chunks/3ecb02e4a4bbe92b.js","async":true}]
+This internship was more than just a summer job. It was a glimpse into the future — both the industry's and my own. And if this is just the beginning, I can't wait to see what comes next.0:{"buildId":"PUdbR-alDfVKkQXN5i_6a","rsc":["$","$1","c",{"children":[["$","$L2",null,{"blog":{"title":"Getting Started with Docker 🐳","publishDate":"Oct 22, 2024","imageUrl":"/blogs/getting-started-with-docker.png","link":"/blogs/getting-started-with-docker","externalLink":"https://day-1-of-my-devops-journey-docker.hashnode.dev/day-1-of-my-devops-journey-getting-started-with-docker","markdownContent":"$3"},"moreBlogs":[{"title":"MCP Servers: Beyond the Hype 🚀","publishDate":"Jun 29, 2025","imageUrl":"/blogs/mcp-servers-beyond-the-hype.png","link":"/blogs/mcp-servers-beyond-the-hype","externalLink":"https://medium.com/@pmsoni2016/what-are-mcp-servers-beyond-the-hype-9863ba4c240d","markdownContent":"$4"},{"title":"My First tech Internship (Remote)","publishDate":"Jul 7, 2024","imageUrl":"/blogs/my-first-internship.png","link":"/blogs/my-first-internship","externalLink":"https://medium.com/@pmsoni2016/my-first-tech-internship-remote-building-ai-powered-automations-8e3790201bfe","markdownContent":"$5"}]}],["$L6","$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
+6:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/9c05de852e057195.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/b1392968ec7d1446.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/e324ebd7f158e978.js","async":true}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/3ecb02e4a4bbe92b.js","async":true}]
 a:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
 d:null
