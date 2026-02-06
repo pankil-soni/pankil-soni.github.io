@@ -1,4 +1,4 @@
-:HL["https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/de0090d4a170a714.css","style"]
-:HL["https://github.com/pankil-soni/pankil-soni.github.io/_next/static/chunks/cc3e5e9e9650b5b9.css","style"]
-:HL["https://github.com/pankil-soni/pankil-soni.github.io/_next/static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"buildId":"WGLGA5pZKjn3gmDT9k3hC","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"contact","paramType":null,"paramKey":"contact","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/_next/static/chunks/de0090d4a170a714.css","style"]
+:HL["/_next/static/chunks/cc3e5e9e9650b5b9.css","style"]
+:HL["/_next/static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"hsDD6oeWakyg2aimtSB1N","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"contact","paramType":null,"paramKey":"contact","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
